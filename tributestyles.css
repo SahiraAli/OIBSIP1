@@ -1,0 +1,77 @@
+.container{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: flex;
+  color: bisque;
+  background: linear-gradient(to left,rgb(20, 25, 82),rgb(97, 89, 89));
+  font-size: 15px;
+}
+.container img{
+  margin-right: 200px;
+  background-color: linear-gradient(to left,rgb(20, 25, 82),rgb(97, 89, 89));
+}
+/* #content{
+   display: flex;
+} */
+/* #quotes{
+ 
+  font-size: 15px;
+  display: flex;
+  width: 33.33%;
+  padding-left: 20px;
+  padding-right: 982px;
+} */
+#quotes .quote-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: bisque;
+  background: linear-gradient(to left,rgb(20, 25, 82),rgb(97, 89, 89));
+}
+
+.quotetext {
+  margin-right: 20px;
+  padding: 0;
+  list-style: none;
+  text-align: left;
+}
+
+.quotetext li {
+  margin-bottom: 10px;
+}
+
+#quotes img {
+  height: 800px;  width: 600px; 
+}
+
+#about{
+
+}
+#gallery{
+
+}
+.navigation{
+  background: linear-gradient(to left,rgb(20, 25, 82),rgb(97, 89, 89));
+  color: white;
+  font-size: 70px;
+}
+nav ul {
+  list-style-type: none;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 30px;
+  padding-top: 0;
+  margin: 0;
+  display: flex; /* Use flexbox */
+}
+
+nav ul li {
+  margin-right: 300px; 
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
