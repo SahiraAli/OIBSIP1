@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute to Helen Keller</title>
+    <link rel="stylesheet" href="tributestyles.css"> 
+</head>
+<body style=" background: linear-gradient(to left,rgb(20, 25, 82),rgb(97, 89, 89));">
+    <header>
+        <h1 style="text-align: center;color: white;">Helen Keller : <em>"A flame eternal, whose flicker never fades"</em></h1>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#quotes" style="font-size: medium; color: white;">QUOTES</a></li>
+                <li><a href="#about" style="font-size: medium; color: white;">ABOUT</a></li>
+                <li><a href="#gallery" style="font-size: medium; color: white;">GALLERY</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- <section id="content"> -->
+      <section id="about">
+       <div class="container">
+        <!-- <h2 style="color: rgb(207, 221, 49); font-style: italic;">About</h2>  -->
+        <img src="images/HelenKeller.jpeg" alt="Helen Keller" height="500px" width="400px">
+         <pre>Helen Keller: A Beacon of Resilience and Advocacy
+
+        In a world cloaked in silence and darkness, Helen Keller emerged as a beacon of resilience,<br>inspiring generations with her indomitable spirit and unwavering determination.<br>Born in 1880 in Tuscumbia, Alabama, Helen's life took an extraordinary turn when illness<br>robbed her of both sight and hearing at the tender age of nineteen months.<br>
+        
+        Despite the profound challenges she faced, Helen refused to surrender to despair,<br>embarking on a journey of discovery that would defy all odds and redefine the boundaries of human potential.<br>Guided by the steadfast love and dedication of her teacher, Anne Sullivan, Helen learned to communicate<br>through touch and sign language,<br>unlocking the vast world of knowledge and imagination that had once seemed beyond her grasp.
+        
+        Through sheer perseverance and unyielding resolve, Helen shattered stereotypes<br>and shattered barriers, proving that disability is not synonymous with inability.<br>Her groundbreaking achievements<br>as a writer, lecturer, and activist transcended the limitations of her physical condition,<br>inspiring millions to embrace empathy,<br>compassion, and the limitless possibilities of the human spirit.
+        
+        As we pay homage to Helen Keller, we celebrate not only her remarkable<br>accomplishments but also her enduring legacy as a tireless advocate for social justice and equality.<br>Her tireless efforts to champion the rights of people with disabilities paved the way for progress <br>and paved the path toward a more inclusive and <br>compassionate society.
+        
+        Join us as we journey through the life and legacy of Helen Keller, <br>a beacon of hope whose light continues to illuminate the path toward a brighter,<br>more inclusive future for all.</pre>
+      </div>
+    </section>
+   <section id="quotes">
+    <div class="quote-container">
+        <h2 style="color: rgb(207, 221, 49); font-style: italic;">Quotes</h2>
+        <ul class="quotetext">
+          <li>"Optimism is the faith that leads to achievement. Nothing can be done without hope and confidence"</li>
+          <li>"Walking with a friend in the dark is better than walking alone in the light"</li>
+          <li>"Character cannot be developed in ease and quiet. Only through experience of trial and suffering can the soul be strengthened, ambition inspired, and success achieved"</li>
+          <li>"The only thing worse than being blind is having sight but no vision"</li>
+          <li>"Never bend your head. Always hold it high. Look the world straight in the eye"</li>
+          <li>"So long as the memory of certain beloved friends lives in my heart, I shall say that life is good"</li>
+          <li>"Everything has its wonders, even darkness and silence, and I learn, whatever state I may be in, therein to be content"</li>
+          <li>"Avoiding danger is no safer in the long run than outright exposure. The fearful are caught as often as the bold"</li>
+          <li>"What we have once enjoyed we can never lose. All that we love deeply becomes a part of us"</li>
+        </ul>
+        <img src="images/HelenwithAnne.jpeg" alt="Helen Keller with Anne Sullivan" style="height: 800px; width: 600px;">
+    </div>
+</section>
+
+    <section id="gallery">
+      <h2 style="color: rgb(207, 221, 49); font-style: italic; text-align: center;">Gallery</h2>
+        <img src="images/Hellen.jpg">
+        <img src="images/YoungHellen.jpg"style="height: 600px; width: 470px;">
+        <img src="images/HellenwithFlower.jpg" style="height: 600px; width: 470px;">
+        <img src="images/HellenMidage.JPEG" style="height: 600px; width: 470px;">
+        <img src="images/HellenOldage.jpg" style="margin-left: 300px;">
+        <img src="images/HellenMidage2.jpg" style="height: 600px; width: 570px; margin-left: 200px;">
+        <img src="images/HellenOldage2.jpg" style="height: 600px; width: 570px; margin-left: 20px;">
+    </section>
+  <!-- </section> -->
+</body>
+<script>
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+
+</script>
+</html>
